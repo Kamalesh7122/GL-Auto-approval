@@ -2,7 +2,7 @@ import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, ChatJoinRequestHandler, ContextTypes
 
-BOT_TOKEN = os.getenv("AAFFUpuhqpXiaXsIZ_Q0tJgV8updiphYTiE")
+BOT_TOKEN = os.getenv("8513812946:AAFFUpuhqpXiaXsIZ_Q0tJgV8updiphYTiE")
 
 print("Token:", BOT_TOKEN)
 
