@@ -1,13 +1,10 @@
 import os
-
-print("TOKEN RAW:", repr(os.getenv("8513812946:AAGx28rW17Lr4mh1HzECks1Fkxmv84Fs7mM")))
-
 from telegram import Update
 from telegram.ext import ApplicationBuilder, ChatJoinRequestHandler, ContextTypes
 
-BOT_TOKEN = os.getenv("8513812946:AAGx28rW17Lr4mh1HzECks1Fkxmv84Fs7mM")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
-print("Token:", BOT_TOKEN)
+print("TOKEN RAW:", repr(BOT_TOKEN))
 
 async def auto_approve(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.chat_join_request.approve()
