@@ -12,3 +12,4 @@ app = ApplicationBuilder().token(BOT_TOKEN).build()
 app.add_handler(ChatJoinRequestHandler(auto_approve))
 
 app.run_polling()
+print("8513812946:AAGWsgvJgzZ2ydQk4E45z-VylZm7vtdo5ro", BOT_TOKEN)
