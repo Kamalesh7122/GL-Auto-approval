@@ -1,4 +1,7 @@
 import os
+
+print("TOKEN RAW:", repr(os.getenv("8513812946:AAFFUpuhqpXiaXsIZ_Q0tJgV8updiphYTiE")))
+
 from telegram import Update
 from telegram.ext import ApplicationBuilder, ChatJoinRequestHandler, ContextTypes
 
