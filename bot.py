@@ -1,11 +1,11 @@
 import os
 
-print("TOKEN RAW:", repr(os.getenv("8513812946:AAEp7wjTW8lN4bnQn6neOejohj6wOpqwffw")))
+print("TOKEN RAW:", repr(os.getenv("8513812946:AAGx28rW17Lr4mh1HzECks1Fkxmv84Fs7mM")))
 
 from telegram import Update
 from telegram.ext import ApplicationBuilder, ChatJoinRequestHandler, ContextTypes
 
-BOT_TOKEN = os.getenv("8513812946:AAEp7wjTW8lN4bnQn6neOejohj6wOpqwffw")
+BOT_TOKEN = os.getenv("8513812946:AAGx28rW17Lr4mh1HzECks1Fkxmv84Fs7mM")
 
 print("Token:", BOT_TOKEN)
 
